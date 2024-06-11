@@ -145,13 +145,22 @@ var ptx_lunr_docs = [
   "body": " Vector spaces  "
 },
 {
-  "id": "ch-fourier-series",
+  "id": "fourier-series-example",
   "level": "1",
-  "url": "ch-fourier-series.html",
-  "type": "Chapter",
-  "number": "11",
-  "title": "Fourier series",
-  "body": " Fourier series  "
+  "url": "fourier-series-example.html",
+  "type": "Section",
+  "number": "11.1",
+  "title": "Fourier series example",
+  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                               Force layout and collision detection    "
+},
+{
+  "id": "fourier-series-example-4",
+  "level": "2",
+  "url": "fourier-series-example.html#fourier-series-example-4",
+  "type": "Figure",
+  "number": "11.1.1",
+  "title": "",
+  "body": " Force layout and collision detection   "
 },
 {
   "id": "ch-fourier-transform",
