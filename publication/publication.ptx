@@ -64,7 +64,9 @@
     <!-- Control text justification and bottom page behavior: -->
     <page right-alignment="flush" bottom-alignment="ragged" />
     <!-- Add content to \geometry{}: -->
-    <!-- <geometry></geometry> -->
+    <page>
+    <geometry>a4paper, margin=2cm</geometry>
+    </page>
     <!-- The asymptote/@links set to "yes" would produce  -->
     <!-- links the html version of asymptote graphics.    -->
     <asymptote links="no" />
@@ -103,9 +105,10 @@
     <!-- put <css style="oscarlevin"/>                         -->
     <!-- See also                                              -->
     <!-- https://pretextbook.org/doc/guide/html/publication-file-online.html#online-style-options -->
+        <!-- colors="blue_red" -->
     <css
         style="default"
-        colors="blue_red"
+        colors="orange_navy"
         knowls="default"
         toc="default"
         banner="default"

@@ -6,9 +6,9 @@
 <frontmatter xmlns:xi="http://www.w3.org/2001/XInclude" xml:id="frontmatter">
   <titlepage>
     <author>
-      <personname>You</personname>
-      <department>Your department</department>
-      <institution>Your institution</institution>
+      <personname>Nathan Clisby</personname>
+      <department>Department of Mathematics</department>
+      <institution>Swinburne University of Technology</institution>
     </author>
     <date>
       <today />
@@ -18,12 +18,14 @@
   <colophon>
 
     <website>
-      <url href="https://pretextbook.org">My Website</url>
+        <url href="https://clisby.net/">Homepage</url>
+        <!-- <url href="https://clisby.net/">https://clisby.net/</url> -->
     </website>
 
     <copyright>
-      <year>2020<ndash />2023</year>
-      <holder>You</holder>
+      <!-- <year>2024<ndash />2023</year> -->
+      <year>2024</year>
+      <holder>Nathan Clisby</holder>
       <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
       </shortlicense>
     </copyright>
