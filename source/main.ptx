@@ -199,6 +199,31 @@
             \end{tikzpicture}
         </latex-image>
     </image>
+        <!-- <figure> -->
+        <!--     <caption>Fourier test</caption> -->
+        <!--     <interactive xml:id="interactive-fourier-test" platform="plotly" version="4" width="80%" aspect="1:1" source="code/plotly/fouriertest.js"> -->
+        <!--         <slate xml:id="fourier-test" surface="div" aspect="1:1"/> -->
+        <!--         <instructions> -->
+        <!--             <p>Adjust the slider</p> -->
+        <!--         </instructions> -->
+        <!--     </interactive> -->
+        <!-- </figure> -->
+
+        <!-- <figure> -->
+            <!-- <caption>Fourier test</caption> -->
+            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" box-sizing="border-box" margins="15%" source="code/d3/fouriertest.js"> -->
+            <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" source="code/d3/fouriertest.js">
+            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" source="code/d3/fouriertest.js"> -->
+                <slate xml:id="fourier-test" surface="div" aspect="1:1"/>
+                <!-- <slate xml:id="fourier-test" width="50%" aspect="1:1"/> -->
+                <instructions>
+                    <p>Adjust the slider</p>
+                </instructions>
+            </interactive>
+                        <!-- </figure> -->
+
+
+
 
                 <figure>
                     <caption>Force layout and collision detection</caption>
