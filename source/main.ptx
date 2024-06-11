@@ -211,6 +211,41 @@
                 </figure>
 
 
+                                <figure xml:id="figure-animation">
+                    <caption>Affine Transformations</caption>
+
+                    <!-- The "10" in the "12:10" should really be a "9".  I suspect -->
+                    <!-- there is some inline element that induces scroll bars      -->
+                                    <interactive xml:id="interactive-animation" platform="javascript" width="100%" aspect="12:10" source="code/austin/animation.js" preview="preview/animation-preview.jpg">
+                        <sbsgroup>
+                            <sidebyside>
+                                <slate xml:id="a" surface="canvas" aspect="4:1" />
+                                <slate xml:id="b" surface="canvas" aspect="4:1" />
+                                <slate xml:id="c" surface="canvas" aspect="4:1" />
+                            </sidebyside>
+                            <sidebyside>
+                                <slate xml:id="d" surface="canvas" aspect="4:1" />
+                                <slate xml:id="e" surface="canvas" aspect="4:1" />
+                                <slate xml:id="f" surface="canvas" aspect="4:1" />
+                            </sidebyside>
+                            <sidebyside>
+                                <slate xml:id="left"  surface="canvas" aspect="6:6" />
+                                <slate xml:id="right" surface="canvas" aspect="6:6" />
+                            </sidebyside>
+                            <sidebyside width="25%" margins="25% 25%">
+                                <slate surface="html" aspect="3:1">
+                                    <button type="button" id="compose" xmlns="http://www.w3.org/1999/xhtml">Compose</button>
+                                </slate>
+                                <slate surface="html" aspect="3:1">
+                                    <button type="button" id="reset" xmlns="http://www.w3.org/1999/xhtml">Reset</button>
+                                </slate>
+                            </sidebyside>
+                        </sbsgroup>
+                        <instructions>
+                            <p>Parameters <m>a</m>, <m>b</m>, <m>d</m>, and <m>e</m>, form a <m>2\times 2</m> matrix <m>A</m>, while <m>c</m> and <m>f</m> form a vector <m>\vec{b}</m>.  The two views of Woody shows the effect of the mapping <me>\vec{x}\mapsto A\vec{x} + \vec{b}</me>.</p>
+                        </instructions>
+                    </interactive>
+                </figure>
     </section>
 
 
