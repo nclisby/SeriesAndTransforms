@@ -212,9 +212,10 @@
         <!-- <figure> -->
             <!-- <caption>Fourier test</caption> -->
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" box-sizing="border-box" margins="15%" source="code/d3/fouriertest.js"> -->
-            <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" source="code/d3/fouriertest.js">
+            <interactive xml:id="interactive-fourier-test" platform="jsxgraph" version="1.8" width="100%" aspect="1:1" source="code/jsxgraph/fouriertest.js">
+            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" source="code/d3/fouriertest.js"> -->
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" source="code/d3/fouriertest.js"> -->
-                <slate xml:id="fourier-test" surface="div" aspect="1:1"/>
+                <slate xml:id="fourier-test" surface="jsxboard" aspect="1:1"/>
                 <!-- <slate xml:id="fourier-test" width="50%" aspect="1:1"/> -->
                 <instructions>
                     <p>Adjust the slider</p>
