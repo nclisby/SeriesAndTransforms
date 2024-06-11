@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": "  My Website   copyright  "
+  "body": "  Homepage    copyright  "
 },
 {
   "id": "sec-section-name",
