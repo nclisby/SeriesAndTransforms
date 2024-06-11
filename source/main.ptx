@@ -129,6 +129,92 @@
 
 <chapter xml:id="ch-fourier-series">
 <title>Fourier series</title>
+
+
+<section xml:id="fourier-series-example">
+    <title>Fourier series example</title>
+    <p>Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:</p>
+
+    <!-- HTML for Interactive Plotly Graphic -->
+    <!-- <html> -->
+    <!--     <div id="fourierPlot"></div> -->
+    <!--     <input type="range" id="termsSlider" min="1" max="20" value="5" oninput="updatePlot(this.value)"> -->
+    <!--         <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> -->
+    <!--         <script> -->
+    <!--             function fourierSeries(x, n) { -->
+    <!--             let sum = 0; -->
+    <!--                 for (let k = 1; k <= n; k++) { -->
+    <!--                 sum += (Math.sin(k * x)) / k; -->
+    <!--                 } -->
+    <!--                 return sum; -->
+    <!--                 } -->
+
+    <!--                 function updatePlot(terms) { -->
+    <!--                 let xValues = []; -->
+    <!--                 let yValues = []; -->
+    <!--                 for (let i = 0; i <= 100; i++) { -->
+    <!--                 let x = 2 * Math.PI * i / 100; -->
+    <!--                 xValues.push(x); -->
+    <!--                 yValues.push(fourierSeries(x, terms)); -->
+    <!--                 } -->
+
+    <!--                 let trace = { -->
+    <!--                 x: xValues, -->
+    <!--                 y: yValues, -->
+    <!--                 type: 'scatter' -->
+    <!--                 }; -->
+
+    <!--                 let layout = { -->
+    <!--                 title: 'Fourier Series with ' + terms + ' Terms', -->
+    <!--                 xaxis: {title: 'x'}, -->
+    <!--                 yaxis: {title: 'f(x)'} -->
+    <!--                 }; -->
+
+    <!--                 Plotly.newPlot('fourierPlot', [trace], layout); -->
+    <!--                 } -->
+
+    <!--                 updatePlot(5); // Initial plot with 5 terms -->
+    <!--         </script> -->
+    <!--     </html> -->
+
+    <!--     <p>The static plot of the Fourier series with 5 terms is shown below:</p> -->
+
+            <!-- \addplot[blue, thick] (\x, 0.6*sin(\x) + 0.2*sin(2*\x) + 0.12*sin(3*\x) + 0.08*sin(4*\x) + 0.06*sin(5*\x)); -->
+            <!-- \addplot[blue, thick] (x, x*x); -->
+            <!-- \addplot[domain=-1:3,samples=50,smooth,red] {cos(deg(pi*x))}; -->
+        <!-- LaTeX for Static TikZ Graphic -->
+        <image width="50%">
+        <latex-image>
+            \begin{tikzpicture}
+            \begin{axis}[
+            domain=0:6.28, % 2*pi
+            samples=100,
+            xlabel={$x$},
+            ylabel={$f(x)$},
+            title={Fourier Series with 5 Terms},
+            grid=major
+            ]
+            \addplot[blue, thick] {0.6*sin(deg(x)) + 0.2*sin(deg(2*x)) + 0.12*sin(deg(3*x)) + 0.08*sin(deg(4*x)) + 0.06*sin(deg(5*x))} ;
+            \end{axis}
+            \end{tikzpicture}
+        </latex-image>
+    </image>
+
+                <figure>
+                    <caption>Force layout and collision detection</caption>
+                    <interactive xml:id="interactive-d3-collision" platform="d3" version="3" width="80%" aspect="1:1" source="code/d3/collision.js" preview="preview/collision-preview.png">
+                        <slate xml:id="d3-collision" surface="div" aspect="1:1"/>
+                        <instructions>
+                            <p>Place your mouse/pointer at the center of the interactive to repel the 200 circles.</p>
+                        </instructions>
+                    </interactive>
+                </figure>
+
+
+    </section>
+
+
+
 </chapter>
 
 <chapter xml:id="ch-fourier-transform">
