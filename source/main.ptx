@@ -12,27 +12,142 @@
 <!-- </latex-preamble> -->
 </docinfo>
 
+<!-- For ease of stepping through document -->
+<!-- <chapter> -->
 
 
-  <!-- we first include a file which contains the docinfo element: -->
-  <xi:include href="./docinfo.ptx" />
 
-  <book xml:id="series-and-transforms">
-    <title>Series and Transforms</title>
-    <!-- <subtitle>Or, how to be an applied mathematician</subtitle> -->
-    <!-- <subtitle>Or, how to </subtitle> -->
-    <!-- <subtitle>Or, how to </subtitle> -->
-    <!-- <subtitle>Or, how to </subtitle> -->
+<!-- we first include a file which contains the docinfo element: -->
+<xi:include href="./docinfo.ptx" />
 
-    <!-- Include frontmatter -->
-    <xi:include href="./frontmatter.ptx" />
+<book xml:id="series-and-transforms">
+<title>Series and Transforms</title>
+<!-- <subtitle>Or, how to be an applied mathematician</subtitle> -->
+<!-- <subtitle>Or, how to </subtitle> -->
+<!-- <subtitle>Or, how to </subtitle> -->
+<!-- <subtitle>Or, a primer on concepts and methods in mathematics </subtitle> -->
 
-    <!-- Include chapters -->
-    <xi:include href="./ch-chapter-title.ptx" />
+<!-- Include frontmatter -->
+<xi:include href="./frontmatter.ptx" />
+
+<!-- Include chapters -->
+<!-- <xi:include href="./ch-chapter-title.ptx" /> -->
+
+<!-- For modular code we need to have this include information. -->
+<!-- See: https://pretextbook.org/doc/guide/html/processing-modular.html -->
+<!-- <chapter xml:id="ch-introduction" xmlns:xi="http://www.w3.org/2001/XInclude"> -->
 
 
-    <!-- Include backmatter -->
-    <xi:include href="./backmatter.ptx" />
 
-  </book>
+<chapter xml:id="ch-introduction">
+<title>Introduction</title>
+
+<introduction>
+<p>An overview of what you will learn in Series and Transforms is provided.  </p>
+</introduction>
+
+<section xml:id="sec-what-is-mathematics">
+<title>What is mathematics?</title>
+<p> 
+    There is no 
+</p>
+</section>
+
+<section xml:id="sec-why-study-mathematics">
+<title>Why study mathematics?</title>
+<p> 
+    Superpower.
+</p>
+<p> 
+    Useful, unreasonable effectiveness of mathematics.
+</p>
+</section>
+
+<section xml:id="sec-the-power-of-abstraction">
+<title>The power of abstraction</title>
+<p> Text of section. </p>
+</section>
+
+<section xml:id="sec-formalism-and-proof">
+<title>Formalism and proof</title>
+<p> Text of section. </p>
+</section>
+
+<section xml:id="sec-what-is-a-mathematician">
+<title>What is a mathematician?</title>
+<p> Text of section. </p>
+</section>
+
+<section xml:id="sec-overview-of-series-and-transforms">
+<title>Overview of Series and Transforms</title>
+<p> 
+</p>
+<p> 
+</p>
+<p> 
+</p>
+</section>
+
+
+</chapter>
+
+<chapter xml:id="ch-logic-and-mathematical-objects">
+<title>Logic and mathematical objects</title>
+</chapter>
+
+<chapter xml:id="ch-methods-of-proof">
+<title>Methods of proof</title>
+</chapter>
+
+<chapter xml:id="ch-cardinality">
+<title>Cardinality</title>
+</chapter>
+
+<chapter xml:id="ch-sequences">
+<title>Sequences</title>
+</chapter>
+
+<chapter xml:id="ch-sequences-of-functions">
+<title>Sequences of functions</title>
+</chapter>
+
+<chapter xml:id="ch-series">
+<title>Series</title>
+</chapter>
+
+<chapter xml:id="ch-series-of-functions">
+<title>Series of functions</title>
+</chapter>
+
+<chapter xml:id="ch-integration">
+<title>Integration</title>
+</chapter>
+
+<chapter xml:id="ch-vector-spaces">
+<title>Vector spaces</title>
+</chapter>
+
+<chapter xml:id="ch-fourier-series">
+<title>Fourier series</title>
+</chapter>
+
+<chapter xml:id="ch-fourier-transform">
+<title>Fourier transform</title>
+</chapter>
+
+<chapter xml:id="ch-laplace-transform">
+<title>Laplace transform</title>
+</chapter>
+
+
+
+
+
+
+
+
+<!-- Include backmatter -->
+<xi:include href="./backmatter.ptx" />
+
+</book>
 </pretext>
