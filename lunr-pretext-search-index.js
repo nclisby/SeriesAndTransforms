@@ -151,12 +151,12 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "11.1",
   "title": "Fourier series example",
-  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                               Force layout and collision detection     Affine Transformations      "
+  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                                             Force layout and collision detection     Affine Transformations      "
 },
 {
-  "id": "fourier-series-example-4",
+  "id": "fourier-series-example-5",
   "level": "2",
-  "url": "fourier-series-example.html#fourier-series-example-4",
+  "url": "fourier-series-example.html#fourier-series-example-5",
   "type": "Figure",
   "number": "11.1.1",
   "title": "",
