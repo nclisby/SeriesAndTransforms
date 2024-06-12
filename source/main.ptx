@@ -88,16 +88,61 @@
 </p>
 </section>
 
-
 </chapter>
 
-<chapter xml:id="ch-logic-and-mathematical-objects">
-<title>Logic and mathematical objects</title>
+<chapter xml:id="ch-foundations">
+<title>Foundations</title>
+
+<section xml:id="sec-logic">
+<title>Logic</title>
+</section>
+
+<section xml:id="sec-sets">
+<title>Sets</title>
+</section>
+
 </chapter>
 
 <chapter xml:id="ch-methods-of-proof">
 <title>Methods of proof</title>
+
+<section xml:id="sec-direct">
+<title>Direct</title>
+</section>
+
+<section xml:id="sec-induction">
+<title>Induction</title>
+</section>
+
+<section xml:id="sec-contradiction">
+<title>Contradiction</title>
+</section>
+
+<section xml:id="sec-exhaustion">
+<title>Exhaustion</title>
+</section>
+
+<!-- <section xml:id="sec-two-paths"> -->
+<!-- This is really a direct proof method for identities -->
+<!-- <title>Two paths</title> -->
+<!-- </section> -->
+
+<section xml:id="sec-ramsey">
+<title>R(3,3) = 6</title>
+</section>
+
 </chapter>
+
+<chapter xml:id="ch-mathematical-objects">
+<title>Mathematical objects</title>
+</chapter>
+
+<!-- limits -->
+<!-- derivatives -->
+<!-- mean value theorem -->
+<!-- completeness -->
+<!-- closed sets -->
+<!-- pigeonhole principle -->
 
 <chapter xml:id="ch-cardinality">
 <title>Cardinality</title>
@@ -216,6 +261,7 @@
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" source="code/d3/fouriertest.js"> -->
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" source="code/d3/fouriertest.js"> -->
                 <slate xml:id="fourier-test" surface="jsxboard" aspect="1:1"/>
+                <slate xml:id="fourier-test-slider" surface="jsxboard" aspect="6:1"/>
                 <!-- <slate xml:id="fourier-test" width="50%" aspect="1:1"/> -->
                 <instructions>
                     <p>Adjust the slider</p>
