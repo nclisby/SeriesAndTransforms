@@ -118,11 +118,20 @@ var ptx_lunr_docs = [
   "body": " Exhaustion  "
 },
 {
+  "id": "sec-pigeonhole",
+  "level": "1",
+  "url": "sec-pigeonhole.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "Example: pirgeonhole principle",
+  "body": " Example: pirgeonhole principle  "
+},
+{
   "id": "sec-ramsey",
   "level": "1",
   "url": "sec-ramsey.html",
   "type": "Section",
-  "number": "3.5",
+  "number": "3.6",
   "title": "Example: R(3,3) = 6",
   "body": " Example: R(3,3) = 6  "
 },
