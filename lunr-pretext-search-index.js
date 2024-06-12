@@ -123,8 +123,8 @@ var ptx_lunr_docs = [
   "url": "sec-ramsey.html",
   "type": "Section",
   "number": "3.5",
-  "title": "R(3,3) = 6",
-  "body": " R(3,3) = 6  "
+  "title": "Example: R(3,3) = 6",
+  "body": " Example: R(3,3) = 6  "
 },
 {
   "id": "ch-mathematical-objects",
