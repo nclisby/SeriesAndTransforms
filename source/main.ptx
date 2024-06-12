@@ -127,6 +127,10 @@
 <!-- <title>Two paths</title> -->
 <!-- </section> -->
 
+<section xml:id="sec-pigeonhole">
+<title>Example: pirgeonhole principle</title>
+</section>
+
 <section xml:id="sec-ramsey">
 <title>Example: R(3,3) = 6</title>
 </section>
