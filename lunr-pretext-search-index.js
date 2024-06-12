@@ -64,29 +64,83 @@ var ptx_lunr_docs = [
   "body": " Overview of Series and Transforms        "
 },
 {
-  "id": "ch-logic-and-mathematical-objects",
+  "id": "sec-logic",
   "level": "1",
-  "url": "ch-logic-and-mathematical-objects.html",
-  "type": "Chapter",
-  "number": "2",
-  "title": "Logic and mathematical objects",
-  "body": " Logic and mathematical objects  "
+  "url": "sec-logic.html",
+  "type": "Section",
+  "number": "2.1",
+  "title": "Logic",
+  "body": " Logic  "
 },
 {
-  "id": "ch-methods-of-proof",
+  "id": "sec-sets",
   "level": "1",
-  "url": "ch-methods-of-proof.html",
+  "url": "sec-sets.html",
+  "type": "Section",
+  "number": "2.2",
+  "title": "Sets",
+  "body": " Sets  "
+},
+{
+  "id": "sec-direct",
+  "level": "1",
+  "url": "sec-direct.html",
+  "type": "Section",
+  "number": "3.1",
+  "title": "Direct",
+  "body": " Direct  "
+},
+{
+  "id": "sec-induction",
+  "level": "1",
+  "url": "sec-induction.html",
+  "type": "Section",
+  "number": "3.2",
+  "title": "Induction",
+  "body": " Induction  "
+},
+{
+  "id": "sec-contradiction",
+  "level": "1",
+  "url": "sec-contradiction.html",
+  "type": "Section",
+  "number": "3.3",
+  "title": "Contradiction",
+  "body": " Contradiction  "
+},
+{
+  "id": "sec-exhaustion",
+  "level": "1",
+  "url": "sec-exhaustion.html",
+  "type": "Section",
+  "number": "3.4",
+  "title": "Exhaustion",
+  "body": " Exhaustion  "
+},
+{
+  "id": "sec-ramsey",
+  "level": "1",
+  "url": "sec-ramsey.html",
+  "type": "Section",
+  "number": "3.5",
+  "title": "R(3,3) = 6",
+  "body": " R(3,3) = 6  "
+},
+{
+  "id": "ch-mathematical-objects",
+  "level": "1",
+  "url": "ch-mathematical-objects.html",
   "type": "Chapter",
-  "number": "3",
-  "title": "Methods of proof",
-  "body": " Methods of proof  "
+  "number": "4",
+  "title": "Mathematical objects",
+  "body": " Mathematical objects  "
 },
 {
   "id": "ch-cardinality",
   "level": "1",
   "url": "ch-cardinality.html",
   "type": "Chapter",
-  "number": "4",
+  "number": "5",
   "title": "Cardinality",
   "body": " Cardinality  "
 },
@@ -95,7 +149,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ch-sequences.html",
   "type": "Chapter",
-  "number": "5",
+  "number": "6",
   "title": "Sequences",
   "body": " Sequences  "
 },
@@ -104,7 +158,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ch-sequences-of-functions.html",
   "type": "Chapter",
-  "number": "6",
+  "number": "7",
   "title": "Sequences of functions",
   "body": " Sequences of functions  "
 },
@@ -113,7 +167,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ch-series.html",
   "type": "Chapter",
-  "number": "7",
+  "number": "8",
   "title": "Series",
   "body": " Series  "
 },
@@ -122,7 +176,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ch-series-of-functions.html",
   "type": "Chapter",
-  "number": "8",
+  "number": "9",
   "title": "Series of functions",
   "body": " Series of functions  "
 },
@@ -131,7 +185,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ch-integration.html",
   "type": "Chapter",
-  "number": "9",
+  "number": "10",
   "title": "Integration",
   "body": " Integration  "
 },
@@ -140,7 +194,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ch-vector-spaces.html",
   "type": "Chapter",
-  "number": "10",
+  "number": "11",
   "title": "Vector spaces",
   "body": " Vector spaces  "
 },
@@ -149,34 +203,16 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "fourier-series-example.html",
   "type": "Section",
-  "number": "11.1",
+  "number": "12.1",
   "title": "Fourier series example",
-  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                                             Force layout and collision detection     Affine Transformations      "
-},
-{
-  "id": "fourier-series-example-5",
-  "level": "2",
-  "url": "fourier-series-example.html#fourier-series-example-5",
-  "type": "Figure",
-  "number": "11.1.1",
-  "title": "",
-  "body": " Force layout and collision detection   "
-},
-{
-  "id": "figure-animation",
-  "level": "2",
-  "url": "fourier-series-example.html#figure-animation",
-  "type": "Figure",
-  "number": "11.1.2",
-  "title": "",
-  "body": " Affine Transformations     "
+  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                                                                                       "
 },
 {
   "id": "ch-fourier-transform",
   "level": "1",
   "url": "ch-fourier-transform.html",
   "type": "Chapter",
-  "number": "12",
+  "number": "13",
   "title": "Fourier transform",
   "body": " Fourier transform  "
 },
@@ -185,7 +221,7 @@ var ptx_lunr_docs = [
   "level": "1",
   "url": "ch-laplace-transform.html",
   "type": "Chapter",
-  "number": "13",
+  "number": "14",
   "title": "Laplace transform",
   "body": " Laplace transform  "
 },
