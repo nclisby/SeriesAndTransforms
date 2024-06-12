@@ -123,8 +123,8 @@ var ptx_lunr_docs = [
   "url": "sec-pigeonhole.html",
   "type": "Section",
   "number": "3.5",
-  "title": "Example: pirgeonhole principle",
-  "body": " Example: pirgeonhole principle  "
+  "title": "Example: pigeonhole principle",
+  "body": " Example: pigeonhole principle  "
 },
 {
   "id": "sec-ramsey",
