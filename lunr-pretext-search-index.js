@@ -214,16 +214,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.1",
   "title": "Fourier series example",
-  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                               Fourier test                                                 "
+  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                                                          Example Fourier series - test                                               "
 },
 {
-  "id": "fourier-series-example-4",
+  "id": "fourier-series-example-3",
   "level": "2",
-  "url": "fourier-series-example.html#fourier-series-example-4",
+  "url": "fourier-series-example.html#fourier-series-example-3",
   "type": "Figure",
   "number": "12.1.1",
   "title": "",
-  "body": " Fourier test    "
+  "body": " Example Fourier series - test   "
 },
 {
   "id": "ch-fourier-transform",
