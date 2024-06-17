@@ -22,7 +22,7 @@
 
 <book xml:id="series-and-transforms">
 <title>Series and Transforms</title>
-<subtitle>real analysis for applied mathematicians</subtitle>
+<subtitle>Real analysis for applied mathematicians</subtitle>
 <!-- <subtitle>Or, how to be an applied mathematician</subtitle> -->
 <!-- <subtitle>Or, how to </subtitle> -->
 <!-- <subtitle>Or, how to </subtitle> -->
@@ -233,51 +233,71 @@
             <!-- \addplot[blue, thick] (x, x*x); -->
             <!-- \addplot[domain=-1:3,samples=50,smooth,red] {cos(deg(pi*x))}; -->
         <!-- LaTeX for Static TikZ Graphic -->
-        <image width="50%">
-        <latex-image>
-            \begin{tikzpicture}
-            \begin{axis}[
-            domain=0:6.28, % 2*pi
-            samples=100,
-            xlabel={$x$},
-            ylabel={$f(x)$},
-            title={Fourier Series with 5 Terms},
-            grid=major
-            ]
-            \addplot[blue, thick] {0.6*sin(deg(x)) + 0.2*sin(deg(2*x)) + 0.12*sin(deg(3*x)) + 0.08*sin(deg(4*x)) + 0.06*sin(deg(5*x))} ;
-            \end{axis}
-            \end{tikzpicture}
-        </latex-image>
-    </image>
+        <!-- <image width="50%"> -->
+        <!-- <latex-image> -->
+        <!--     \begin{tikzpicture} -->
+        <!--     \begin{axis}[ -->
+        <!--     domain=0:6.28, % 2*pi -->
+        <!--     samples=100, -->
+        <!--     xlabel={$x$}, -->
+        <!--     ylabel={$f(x)$}, -->
+        <!--     title={Fourier Series with 5 Terms}, -->
+        <!--     grid=major -->
+        <!--     ] -->
+        <!--     \addplot[blue, thick] {0.6*sin(deg(x)) + 0.2*sin(deg(2*x)) + 0.12*sin(deg(3*x)) + 0.08*sin(deg(4*x)) + 0.06*sin(deg(5*x))} ; -->
+        <!--     \end{axis} -->
+        <!--     \end{tikzpicture} -->
+        <!-- </latex-image> -->
+    <!-- </image> -->
+
+        <!-- <figure> -->
+        <!--     <caption>Fourier test</caption> -->
+            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" box-sizing="border-box" margins="15%" source="code/d3/fouriertest.js"> -->
+        <!--     <interactive xml:id="interactive-fourier-test" platform="jsxgraph" version="1.8" width="100%" aspect="1:1" source="code/jsxgraph/fouriertest.js"> -->
+                <!-- <slate xml:id="fourier-test" surface="jsxboard" aspect="1:1"/> -->
+                <!-- <static> -->
+                <!--     <image width="60%" source="images/fourier-test-static.png"/> -->
+                <!-- </static> -->
+                <!-- <slate xml:id="fourier-test" width="50%" aspect="1:1"/> -->
+                <!-- <instructions> -->
+                <!--     <p>Adjust the slider</p> -->
+                <!-- </instructions> -->
+            <!-- </interactive> -->
+                <!--         </figure> -->
+
 
         <figure>
-            <caption>Fourier test</caption>
-            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" box-sizing="border-box" margins="15%" source="code/d3/fouriertest.js"> -->
-            <interactive xml:id="interactive-fourier-test" platform="jsxgraph" version="1.8" width="100%" aspect="1:1" source="code/jsxgraph/fouriertest.js">
-            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" source="code/d3/fouriertest.js"> -->
-            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" source="code/d3/fouriertest.js"> -->
-                <slate xml:id="fourier-test" surface="jsxboard" aspect="1:1"/>
-                <static>
-                    <image width="60%" source="images/fourier-test-static.png"/>
-                </static>
-                <!-- <slate xml:id="fourier-test" width="50%" aspect="1:1"/> -->
-                <instructions>
-                    <p>Adjust the slider</p>
-                </instructions>
-            </interactive>
-                        </figure>
-
-
+            <caption>Example Fourier series - test</caption>
             <interactive xml:id="interactive-fourier-test2" platform="jsxgraph" version="1.8" width="100%" aspect="1:1" source="code/jsxgraph/fouriertest2.js">
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" source="code/d3/fouriertest.js"> -->
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" source="code/d3/fouriertest.js"> -->
                 <slate xml:id="fourier-test2" surface="jsxboard" width="85%" aspect="1:1"/>
                 <slate xml:id="fourier-test2-slider" surface="jsxboard" width="85%" aspect="8:1"/>
+                <!-- <static> -->
+                    <!-- <image width="60%" source="images/fourier-test-static.png"/> -->
+                    <!-- <image width="50%"> -->
+                    <!--     <latex-image> -->
+                    <!--         \begin{tikzpicture} -->
+                    <!--         \begin{axis}[ -->
+                    <!--         domain=0:6.28, % 2*pi -->
+                    <!--         samples=100, -->
+                    <!--         xlabel={$x$}, -->
+                    <!--         ylabel={$f(x)$}, -->
+                    <!--         title={Fourier Series with 5 Terms}, -->
+                    <!--         grid=major -->
+                    <!--         ] -->
+                    <!--         \addplot[blue, thick] {0.6*sin(deg(x)) + 0.2*sin(deg(2*x)) + 0.12*sin(deg(3*x)) + 0.08*sin(deg(4*x)) + 0.06*sin(deg(5*x))} ; -->
+                    <!--         \end{axis} -->
+                    <!--         \end{tikzpicture} -->
+                    <!--     </latex-image> -->
+                    <!-- </image> -->
+                <!-- </static> -->
                 <!-- <slate xml:id="fourier-test" width="50%" aspect="1:1"/> -->
                 <instructions>
                     <p>Adjust the slider</p>
                 </instructions>
             </interactive>
+        </figure>
 
 
                 <!-- <figure> -->

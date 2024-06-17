@@ -28,8 +28,17 @@
                 const slider = sliderBoard.create('slider', [[1, 0.5], [20, 0.5], [1, 5, 20]], {
                     snapWidth: 1,
                     name: 'Number of terms',
-                    withLabel: true
+                    withLabel: true,
+                    // label: {
+                    //     anchorX: 'left',
+                    //     anchorY: 'middle',
+                        // offset: [0, 0],
+                        // fontSize: 20,
+                        // distance: 1.5,
+                        // position: '50% right'
+                    // }
                 });
+
 
 
                 // Create the curve
@@ -54,9 +63,9 @@
                 });
 
                 // Add the label for the slider
-                sliderBoard.create('text', [9.5, 0.0, function() {
+                sliderBoard.create('text', [7.5, -0.3, function() {
                     return 'Number of terms: ' + Math.round(slider.Value());
-                }]);
+                }], {fontSize:16});
                 slider.label.setAttribute({fontSize:60});
             })();
 
