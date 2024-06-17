@@ -22,6 +22,7 @@
 
 <book xml:id="series-and-transforms">
 <title>Series and Transforms</title>
+<subtitle>real analysis for applied mathematicians</subtitle>
 <!-- <subtitle>Or, how to be an applied mathematician</subtitle> -->
 <!-- <subtitle>Or, how to </subtitle> -->
 <!-- <subtitle>Or, how to </subtitle> -->
@@ -248,32 +249,35 @@
             \end{tikzpicture}
         </latex-image>
     </image>
-        <!-- <figure> -->
-        <!--     <caption>Fourier test</caption> -->
-        <!--     <interactive xml:id="interactive-fourier-test" platform="plotly" version="4" width="80%" aspect="1:1" source="code/plotly/fouriertest.js"> -->
-        <!--         <slate xml:id="fourier-test" surface="div" aspect="1:1"/> -->
-        <!--         <instructions> -->
-        <!--             <p>Adjust the slider</p> -->
-        <!--         </instructions> -->
-        <!--     </interactive> -->
-        <!-- </figure> -->
 
-        <!-- <figure> -->
-            <!-- <caption>Fourier test</caption> -->
+        <figure>
+            <caption>Fourier test</caption>
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" box-sizing="border-box" margins="15%" source="code/d3/fouriertest.js"> -->
             <interactive xml:id="interactive-fourier-test" platform="jsxgraph" version="1.8" width="100%" aspect="1:1" source="code/jsxgraph/fouriertest.js">
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" source="code/d3/fouriertest.js"> -->
             <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" source="code/d3/fouriertest.js"> -->
                 <slate xml:id="fourier-test" surface="jsxboard" aspect="1:1"/>
-                <slate xml:id="fourier-test-slider" surface="jsxboard" aspect="6:1"/>
+                <static>
+                    <image width="60%" source="images/fourier-test-static.png"/>
+                </static>
                 <!-- <slate xml:id="fourier-test" width="50%" aspect="1:1"/> -->
                 <instructions>
                     <p>Adjust the slider</p>
                 </instructions>
             </interactive>
-                        <!-- </figure> -->
+                        </figure>
 
 
+            <interactive xml:id="interactive-fourier-test2" platform="jsxgraph" version="1.8" width="100%" aspect="1:1" source="code/jsxgraph/fouriertest2.js">
+            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" aspect="1:1" source="code/d3/fouriertest.js"> -->
+            <!-- <interactive xml:id="interactive-fourier-test" platform="d3" version="7" width="100%" source="code/d3/fouriertest.js"> -->
+                <slate xml:id="fourier-test2" surface="jsxboard" width="85%" aspect="1:1"/>
+                <slate xml:id="fourier-test2-slider" surface="jsxboard" width="85%" aspect="8:1"/>
+                <!-- <slate xml:id="fourier-test" width="50%" aspect="1:1"/> -->
+                <instructions>
+                    <p>Adjust the slider</p>
+                </instructions>
+            </interactive>
 
 
                 <!-- <figure> -->
