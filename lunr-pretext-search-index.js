@@ -7,7 +7,7 @@ var ptx_lunr_docs = [
   "type": "Colophon",
   "number": "",
   "title": "Colophon",
-  "body": "  Homepage    copyright  "
+  "body": "  Nathan Clisby's homepage    copyright  "
 },
 {
   "id": "sec-what-is-mathematics",
@@ -214,7 +214,16 @@ var ptx_lunr_docs = [
   "type": "Section",
   "number": "12.1",
   "title": "Fourier series example",
-  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                                                                                       "
+  "body": " Fourier series example  Below is the plot of a Fourier series. Use the slider to change the number of terms included in the series:                                               Fourier test                                                 "
+},
+{
+  "id": "fourier-series-example-4",
+  "level": "2",
+  "url": "fourier-series-example.html#fourier-series-example-4",
+  "type": "Figure",
+  "number": "12.1.1",
+  "title": "",
+  "body": " Fourier test    "
 },
 {
   "id": "ch-fourier-transform",
