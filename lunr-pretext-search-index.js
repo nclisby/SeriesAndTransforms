@@ -10,6 +10,15 @@ var ptx_lunr_docs = [
   "body": "  Nathan Clisby's homepage    copyright  "
 },
 {
+  "id": "frontmatter-3",
+  "level": "1",
+  "url": "frontmatter-3.html",
+  "type": "Acknowledgements",
+  "number": "",
+  "title": "Acknowledgements",
+  "body": " This study guide for Series and Transforms is inspired by a previous version due to Sergey Suslov, Federico Frascoli, and Stephen Bedding.  "
+},
+{
   "id": "sec-what-is-mathematics",
   "level": "1",
   "url": "sec-what-is-mathematics.html",
