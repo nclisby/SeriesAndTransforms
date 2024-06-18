@@ -29,6 +29,14 @@
       <shortlicense> This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit <url href="http://creativecommons.org/licenses/by-sa/4.0/" visual="creativecommons.org/licenses/by-sa/4.0"> CreativeCommons.org</url>
       </shortlicense>
     </copyright>
+
   </colophon>
+
+  <acknowledgement>
+      <p>
+    This study guide for Series and Transforms is inspired by a previous version
+          due to Sergey Suslov, Federico Frascoli, and Stephen Bedding.
+      </p>
+  </acknowledgement>
 </frontmatter>
 

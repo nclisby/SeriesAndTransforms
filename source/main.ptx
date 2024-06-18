@@ -274,7 +274,9 @@
                 <slate xml:id="fourier-test2" surface="jsxboard" width="85%" aspect="1:1"/>
                 <slate xml:id="fourier-test2-slider" surface="jsxboard" width="85%" aspect="8:1"/>
                 <!-- <static> -->
+                    <!-- Method 1: screenshot of webpage -->
                     <!-- <image width="60%" source="images/fourier-test-static.png"/> -->
+                    <!-- Method 2: Tikz -->
                     <!-- <image width="50%"> -->
                     <!--     <latex-image> -->
                     <!--         \begin{tikzpicture} -->
